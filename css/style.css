@@ -2,3 +2,11 @@ div.pad{
 	padding-top: 1cm;
 	padding-bottom: 1cm;
 }
+div.img img{
+	display: inline;
+	margin: 5px;
+	float: left;
+}
+div.img a:hover img {
+	border: 1px solid #b0bec5;
+}
