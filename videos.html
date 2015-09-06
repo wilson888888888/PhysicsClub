@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>Physics Club</title>
+	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body bgcolor="e0e0e0">
+	<ul id="nav-mobile" class="side-nav fixed">
+	  <li class="bold"><a class="waves-effect waves-blue-grey waves-darken-1" href="index.html">Home</a></li>
+	  <li class="bold"><a class="waves-effect waves-blue-grey waves-darken-1" href="papers.html">Papers and Books</a></li>
+	  <li class="bold"><a class="waves-effect waves-blue-grey waves-darken-1" href="videos.html">Videos</a></li>
+	  <li class="bold"><a class="waves-effect waves-blue-grey waves-darken-1" href="benefits.html">Benefits</a></li>
+	  <li class="bold"><a class="waves-effect waves-blue-grey waves-darken-1" href="pictures.html">Pictures</a></li>
+	  <li class="bold"><a class="waves-effect waves-blue-grey waves-darken-1" href="projects.html">Projects</a></li>
+	</ul>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="js/video.js"></script>
+	<div id="index-banner" class="section blue-grey darken-1">
+	  <div class="row">
+		<div class="container">
+		  <div class="col s12 m9">
+			<h3 class="header center-on-small-only white-text">Videos</h3>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<br>
+	<div class="container" id="afterthis">
+	  <div class="row">
+		<a class='dropdown-button btn' href='#' data-activates='dropdown1'>Select Video</a>
+		<ul id='dropdown1' class='dropdown-content'>
+		  <li><a href="#" onclick="showVid('Ruben\'s Tube','FtUwC7Gv7BU')">Rubens' Tube</a></li>
+		  <li><a href="#" onclick="showVid('Wimshurst\'s Machine', 'cikBGih09mo')">Wimshurst's Machine</a></li>
+		  <li><a href="#" onclick="showVid('Jacob\'s Ladder', '8Of0KeHS3Ac')">Jacob's Ladder</a></li>
+		</ul>		
+	  </div>
+	</div>
+	<div class="container vid">
+	  <div class="row">
+		<div class="section col s9">
+		  <div class="card blue-grey darken-1 z-depth-2">
+			<div class="card-content white-text">
+			  <span class="card-title white-text">Video of the day</span>
+			  <div class="valign-wrapper">
+				<iframe width="800" height="450"
+						src="http://www.youtube.com/embed/FtUwC7Gv7BU">
+				</iframe> 
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </body>
+</html>

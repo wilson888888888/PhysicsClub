@@ -10,3 +10,6 @@ div.img img{
 div.img a:hover img {
 	border: 1px solid #b0bec5;
 }
+p.invis{
+	color: #e0e0e0;
+}
