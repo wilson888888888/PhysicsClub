@@ -16,6 +16,7 @@
 	</ul>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="js/form.js"></script>
 	<div id="index-banner" class="section blue-grey darken-1">
 	  <div class="row">
 		<div class="container">
@@ -31,19 +32,19 @@
 		  <div class="card blue-grey darken-1 z-depth-2">
 			<div class="card-content white-text">
 			  <span class="card-title white-text">Project Suggestions</span>
-			  <form class="col s12">
+			  <form class="col s12" id="theform" action="sub.php" method="post">
 				<div class="row">
-				  <div class="input-field col s6">
+				  <div class="input-field col s9">
 					Name: <br>
 					<input id="name" type="text">
 				  </div>				  
 				  <div class="input-field col s9">
 					Project Suggestion: <br>
-					<textarea id="project" class="materialize-textarea"></textarea>
+					<input id="project" type="text">
 				  </div>
 				</div>
 				<div class="row">
-				  <a class="waves-effect waves-light btn">Submit</a>
+				  <a class="waves-effect waves-light btn" onclick="submitForm()">Submit</a>
 				</div>
 			  </form>
 			</div>
