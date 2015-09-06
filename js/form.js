@@ -1,7 +1,11 @@
 function submitForm(){
 	var frm=document.getElementById('theform');
-	var fadeTime = 2000;
+	document.getElementById('success').style.visibility = 'visible';
 	frm.submit();
 	frm.reset();
 	return false;
+}
+
+function closeCard(){
+	document.getElementById('success').style.visibility = 'hidden';
 }
