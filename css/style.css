@@ -2,6 +2,13 @@ div.pad{
 	padding-top: 1cm;
 	padding-bottom: 1cm;
 }
+img {
+	max-width: 100%;
+}
+div.card{
+	height:auto;
+	min-height: 10%;
+}
 div.img img{
 	display: inline;
 	margin: 5px;
