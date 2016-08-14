@@ -1,5 +1,5 @@
 <?php
-$email_to = "rahul.tewari@warriorlife.net";
+$email_to = "wilson.wu@warriorlife.net";
 $email_subject = "Physics club project suggestion";
 
 function died($error){
